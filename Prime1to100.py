@@ -1,4 +1,6 @@
-print("\nPrime Numbers Between 1 and 100")
+print("========================================")
+print("\nDisplay Prime Numbers")
+print("Prime Numbers Between 1 and 100\n")
 
 for PrimeN in range (1, 101):              # LOOP: Numbers 1-100 will be processed.
     CountN = 0
@@ -11,4 +13,4 @@ for PrimeN in range (1, 101):              # LOOP: Numbers 1-100 will be process
     if (CountN == 0 and PrimeN != 1):      # IF CountN is 0, it is a prime number. PrimeN: exclude 1 from printing.
         print("%d" %PrimeN, end = '  ')
 
-
+print("\n\n========================================")
